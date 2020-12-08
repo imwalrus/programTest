@@ -13,6 +13,7 @@ public class Exam05 {
 				new Employee(5, "Choi", "18-03-01", "IT_PROG", 5000), //
 				new Employee(6, "Choo", "20-11-01", "SALES", 2500));
 
+		// 전체사원의 평균급여를 출력
 		double avg = list.stream() //
 				.mapToInt((t) -> t.getSalary()) //
 				.average().getAsDouble();
