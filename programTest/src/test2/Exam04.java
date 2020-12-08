@@ -20,7 +20,8 @@ public class Exam04 {
 				.collect(Collectors.toList());
 
 		for (Student student : students) {
-			System.out.println(	"이름: " + student.getName() + ", 영어점수: " + student.getEng() + ", 수학점수: " + student.getMath()); //
+			System.out.println(
+					"이름: " + student.getName() + ", 영어점수: " + student.getEng() + ", 수학점수: " + student.getMath()); //
 		}
 	}
 }
