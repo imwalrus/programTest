@@ -21,7 +21,7 @@ public class Exam04 {
 
 		for (Student student : students) {
 			System.out.println(
-					"이름: " + student.getName() + ", 영어점수: " + student.getEng() + ", 수학점수: " + student.getMath()); //
+					"이름: " + student.getName() + ", 영어점수: " + student.getEng() + ", 수학점수: " + student.getMath());
 		}
 	}
 }
